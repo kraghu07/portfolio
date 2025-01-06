@@ -1,0 +1,237 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background: linear-gradient(120deg, #0f2027, #203a43, #2c5364); */
+  background: #212529;/*#0f2027;*/
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: red;
+  border-bottom: 2px solid #0ef;
+}
+
+/* Navbar */
+
+.nav-link {
+  color: #f8f9fa !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #0ef !important;
+}
+
+/* Profile Section */
+#home {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  /* border: 0.5px solid #0ef;
+  animation: pulse 5s infinite; */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.card {
+  background-color: #212529;
+  border: none;
+  /* box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  transition: box-shadow 0.3s; */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 255, 255, 0.6);
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px 20px;
+  background: #212529;
+  border-radius: 10px;
+}
+
+.skill-icon {
+  max-width: 80px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #0ef;
+}
+
+/* Experience and Projects */
+.card-hover {
+  background-color: #212529;
+  border: 1px solid #0ef;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 255, 255, 0.6);
+}
+
+/* Animations */
+@keyframes pulse {
+  0%, 100% {
+      box-shadow: 0 0 10px #0ef, 0 0 20px #0ef;
+  }
+  50% {
+      box-shadow: 0 0 30px #0ef, 0 0 40px #0ef;
+  }
+}
+
+
+
+
+#skills {
+    background-color: #212529; /* Dark background */
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.skill-icon {
+    max-height: 80px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Subtle glow */
+}
+
+.skill-item {
+    text-align: center;
+}
+
+.skill-item p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #f8f9fa; /* Light text for dark background */
+}
+
+h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  /* overflow: hidden; */
+  background-color: #181818; 
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  animation: twinkle 1s infinite;
+}
+
+.star-big {
+  width: 4px;
+  height: 4px;
+}
+
+.star-small {
+  width: 1px;
+  height: 1px;
+}
+
+.star-red {
+  background-color: #f00; 
+}
+
+.star-blue {
+  background-color: #00f; 
+}
+
+@keyframes twinkle {
+  50% {
+    transform: scale(1.5); 
+    opacity: 0.5; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  path.icon-linkedin:hover {
+    color: #0077b5; 
+  }
+  
+  path.icon-github:hover {
+    color: #333; 
+  }
+  
+  path.icon-codeforces:hover {
+    color: #1f8acb; 
+  }
+  
+  path.icon-leetcode:hover {
+    color: #f89f1b; 
+  }
+  
+  path.icon-hackerrank:hover {
+    color: #2ec866; 
+  }
+  
